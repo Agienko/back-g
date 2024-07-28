@@ -1,0 +1,19 @@
+{
+  "name": "g-api",
+  "version": "1.0.0",
+  "description": "API",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "inspect": "nodemon --inspect server"
+  },
+  "author": "Yurii Ahiienko",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "socket.io": "4.5.4",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.19"
+  }
+}
