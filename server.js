@@ -6,6 +6,7 @@ const io = new Server(8088, {
     cors: {origin: "*"}
 });
 
+
 const players = new Map();
 
 io.on("connection", socket => {
